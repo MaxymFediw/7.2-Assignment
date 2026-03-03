@@ -1,4 +1,5 @@
-﻿using static System.Runtime.InteropServices.JavaScript.JSType;
+﻿using System;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace _7._2_Assignment
 {
@@ -50,15 +51,32 @@ namespace _7._2_Assignment
             Console.WriteLine("Whats you name?");
             name = Console.ReadLine();
 
-            for (int i = 1; i <= 10; i = i + 1) 
+            
+
+            if (name == "Aldworth" || name == "aldworth")
             {
-               
-                Console.WriteLine();
+                for (int i = 1; i <= 5; i = i + 1)
+                {
+
+                    Console.WriteLine(i + ". " + name);
+
+                }
+
 
 
             }
 
+            else
+            {
 
+                for (int i = 1; i <= 10; i = i + 1)
+                {
+
+                    Console.WriteLine(i + ". " + name);
+
+                }
+
+            }
 
         }
      
