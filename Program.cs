@@ -9,7 +9,7 @@ namespace _7._2_Assignment
         {
             //Maxym F.
             
-            Part3();
+            Part1();
         }
 
         public static void Part1() 
